@@ -1,0 +1,48 @@
+.thanks__content {
+  margin: 100px auto;
+  max-width: 1230px;
+  text-align: center;
+}
+
+
+.thanks__background {
+  position: relative;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.thanks__background-title {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 200px;
+  font-weight:bold;
+  color: #FBF5EF;
+}
+
+.thanks__text {
+  position: absolute;
+  width: 50%;
+  top: 35%;
+  left: 25%;
+}
+
+.thanks__heading {
+  margin: 0 auto;
+}
+
+.thanks__heading-text {
+  color: #726557;
+  font-weight: bold;
+}
+
+.form__button-submit {
+  margin-top: 30px;
+  padding: 10px;
+  width: 30%;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  background-color: #726557;
+  color: #fff;
+  cursor: pointer;
+}

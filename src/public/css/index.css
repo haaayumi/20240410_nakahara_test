@@ -1,0 +1,171 @@
+.contact-form__content {
+  margin: 0 auto;
+  padding: 30px 15px;
+  max-width: 1230px;
+}
+
+.contact-form__heading {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contact-form__heading-title {
+  color: 	#BCB09C;
+}
+
+.form {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+
+.form__content {
+  margin: 60px auto;
+}
+
+.form__group {
+  width: 100%;
+  display: flex;
+  margin-bottom:30px;
+  justify-content: space-between;
+}
+
+form__group-title {
+  width: 30%;
+}
+
+.form__label--item {
+  color: #BCB09C;
+  font-size: 14px;
+}
+
+.form__label--required {
+  padding: 4px 6px 4px 1px;
+  color: #DC143C;
+  font-size: 14px;
+}
+
+.form__group-content {
+  margin-left: 10px;
+  width: 70%;
+}
+
+.form__group-content__wrap {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.form__input--text {
+  width: 45%;
+}
+
+.input--name {
+  width: 100%;
+  padding: 8px 14px;
+}
+
+input {
+  background-color: #DCDCDC;
+}
+
+.checkbox {
+
+}
+
+.form__input--checkbox {
+  width: 30%;
+}
+
+.input--checkbox {
+  text-align: left;
+}
+
+.form__input--box {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.input--email {
+  width: 100%;
+  padding: 8px 0 8px 14px;
+}
+
+
+.form__input--number {
+  width: 28%;
+  justify-content: space-between;
+}
+
+.number__border {
+  display: flex;
+  align-items: center;
+}
+
+.input--number {
+  width: 100%;
+  text-align: center;
+  padding: 8px 0;
+}
+.number__border::before,.number__border::after {
+  content: "";
+  flex-grow: 1;
+  height: 3px;
+  background: #000;
+}
+
+
+.input--address {
+  width: 100%;
+  padding: 8px 0 8px 14px;
+}
+
+.input--building {
+  width: 100%;
+  padding: 8px 0 8px 14px;
+}
+
+.form__group-content__select {
+  width: 60%;
+  text-align: left;
+}
+
+.form__input--select {
+  appearance: none;
+  width: 100%;
+  padding: 8px 0 8px 14px;
+}
+
+.form__input--text {
+  height: 40px;
+}
+
+.form__input--textarea {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.input--textarea {
+  padding: 8px 0 8px 14px;
+}
+
+.form__button {
+  margin-top: 30px;
+}
+
+.form__button-submit {
+  padding: 8px 30px;
+  border: none;
+  border-radius: 1px;
+  background-color: 	#BCB09C;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form__error {
+  text-align: left;
+  color: #DC143C;
+}
