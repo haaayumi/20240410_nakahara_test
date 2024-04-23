@@ -1,6 +1,6 @@
 # 20240410_nakahara_test
 ##
-docker-compose up -d --build
+docker-compose up -d --build  
 composer create-project "laravel/laravel=8.*" . --prefer-dist
 .envファイルの環境変数を変更
 php artisan make:controller ContactController
